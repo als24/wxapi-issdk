@@ -1,0 +1,49 @@
+{
+  "name": "wxapi-issdk",
+  "version": "1.1.6",
+  "description": "小程序服务端接口封装sdk api library for wxapi  issdk node serve api",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/als24/wxapi-issdk.git"
+  },
+  "keywords": [
+    "wxapp",
+    "wechat",
+    "weixin",
+    "miniprogram",
+    "wx",
+    "wx-api",
+    "wx-minprogram-api",
+    "issdk",
+    "小程序",
+    "微信小程序SDK",
+    "微信小程序服务端SDK",
+    "微信小程序",
+    "微信api",
+    "微信小程序支付sdk",
+    "微信"
+  ],
+  "author": "als24",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/als24/wxapi-issdk/issues"
+  },
+  "homepage": "https://github.com/als24/wxapi-issdk#readme",
+  "dependencies": {
+    "crypto-random-string": "^3.0.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "xml-js": "^1.6.11"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "intelli-espower-loader": "^1.0.1",
+    "mocha": "^6.2.0",
+    "power-assert": "^1.6.1"
+  }
+}
